@@ -169,9 +169,35 @@ main{
 
 .resume-container{
     display: flex;
+    gap: 50px;
 }
 
 .resume-column-title{
     color: black;
+    font-size: 30px;
+    font-weight: 700;
+    
+    margin-bottom: 80px;
 
+}
+
+.edu-year{
+    color: grey;
+}
+
+.resume-container hr{
+    margin: 30px;
+
+}
+
+
+.cv-download{
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* footer style  */
+
+.footer-head{
+    display: flex;
 }
