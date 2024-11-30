@@ -198,6 +198,40 @@ main{
 
 /* footer style  */
 
-.footer-head{
+
+
+footer{
     display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    margin-top: 100px;
+    padding-bottom: 130px 200px;
+
+
+
+}
+
+.footer-column{
+    width: 50%;
+    margin: 20px;
+
+}
+
+.contact input[type="text"], input[type="email"], textarea{
+
+    display: block;
+   margin-bottom: 24px;
+    padding: 18px 35px;
+    font-size: 16px;
+    color: grey;
+    border-radius: 5px;
+    border: 0;
+    width: 80%;
+
+}
+
+.social-links a{
+    margin-left: 30px;
+  
+   
 }
