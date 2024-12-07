@@ -250,8 +250,8 @@ footer{
 
       nav {
         flex-direction: column;
-        margin: 20px;
         
+        margin : 0;
       }
 
       .banner{
