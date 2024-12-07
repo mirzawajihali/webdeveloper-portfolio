@@ -10,6 +10,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     margin: 0 200px;
+   
 }
 
 .nav-title{
@@ -56,7 +57,7 @@ a{
 .header{
 
     background-color: #FFF8F3;
-    background-image: url(../images/header_bg.png);
+    background-image: url("../images/header_bg.png");
     background-repeat: no-repeat;
     background-position: bottom right;
 }
@@ -205,7 +206,7 @@ footer{
     gap: 100px;
     background-color: #FFF8F3;
     margin-top: 100px;
-    padding-bottom: 130px 200px;
+    padding: 130px 200px;
 
 
 
@@ -234,4 +235,104 @@ footer{
     margin-left: 30px;
   
    
+}
+
+.hide{
+    display: none;
+}
+
+/* responsive  */
+
+@media screen and (max-width: 576px){
+      .header{
+        background-image: none;
+      }
+
+      nav {
+        flex-direction: column;
+        margin: 20px;
+        
+      }
+
+      .banner{
+        flex-direction: column;
+        padding: 20px;
+      }
+
+      .banner #pp{
+        width: 100%;
+        margin-right: 0px;
+      }
+
+      .developer-img{
+        display: none;
+      }
+      nav > ul{
+        
+        flex-direction: column;
+        
+       
+      }
+
+      nav>ul>li{
+        margin-top: 20px;
+      }
+
+      .banner-content {
+        max-width: 700px;
+        text-align: center;
+    }
+
+    .btn-primary{
+        margin-top: 20px;
+    }
+
+    
+    .skill-container{
+            flex-direction: column;
+        }
+
+        .WID{
+            padding: 10px;
+        }
+
+        .resume-container, footer{
+            flex-direction: column;
+            padding: 10px;
+        }
+
+        footer{
+            padding: 10px;
+            
+        }
+        .footer-column{
+            width: 90%;
+        }
+        .contact{
+            width: 90%;
+        }
+
+        
+        .about{
+            padding: 10px;
+        }
+
+        .about-info-container{
+            flex-direction: column;
+        }
+
+        .section-title{
+            font-size: 35px;
+        }
+        
+
+
+}
+
+@media screen and (min-width : 576px ) and (max-width : 992px){
+
+    .resume-container, .skill-container{
+        flex-direction: column;
+        padding: 10px;
+    }
 }
